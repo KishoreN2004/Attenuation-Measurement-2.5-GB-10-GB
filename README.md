@@ -1,14 +1,9 @@
-# Attenuation Measurement 2.5 GB & 10 GB
-
+# Attenuation Measurement Limited Fiber Length 2.5 GB & 10 GB
 # KISHORE N
 # 212223065001
-# Attenuation-Limited Fiber Length
-
 ## Objective
 - Calculate the attenuation-limited fiber length based on the power budget equation.  
 - Simulate the resulting system and verify that it meets performance objectives.
-
----
 
 ## Theory
 The **power budget equation** states that the power budget in a transmission system must equal the sum of all power losses plus the power margin.  
@@ -24,7 +19,6 @@ The **receiver sensitivity** is defined as the minimum power required to achieve
 - Fiber attenuation depends on the operating wavelength.  
 
 ---
-
 ## Pre-lab Calculations
 Using the power budget equation and the parameters below, determine the attenuation-limited fiber length:
 
@@ -39,7 +33,6 @@ Using the power budget equation and the parameters below, determine the attenuat
 - **Power margin:** 6 dB  
 
 ---
-
 ## Layout
 - The system has been created using **OptiSystem** and exported as an **OptiPerformer** file.  
 - Two versions exist: one for **2.5 Gb/s** and one for **10 Gb/s**.  
@@ -51,7 +44,6 @@ Using the power budget equation and the parameters below, determine the attenuat
 - Visualizer components are included to obtain necessary simulation data.  
 
 ---
-
 ## Simulation
 1. Run the simulation and record:
    - **Optical power levels (dBm):**
@@ -61,13 +53,10 @@ Using the power budget equation and the parameters below, determine the attenuat
      - BER  
      - Q factor  
      - Eye diagram  
-
 2. Set the fiber length to **125% of the calculated pre-lab value** and repeat the simulation and data recording.  
-
 ---
 
 ## Analysis and Report
-
 # Calculation
 <img width="831" height="1280" alt="WhatsApp Image 2026-10-22 at 10 57 23 AM" src="https://github.com/user-attachments/assets/7f3f6eb4-b4fd-492c-828f-25c3b811e797" />
 
@@ -76,7 +65,6 @@ Using the power budget equation and the parameters below, determine the attenuat
 
 # 10GB
 <img width="1920" height="1080" alt="Screenshot 2026-10-22 105208" src="https://github.com/user-attachments/assets/16114346-599f-4726-8c85-2198d6c48b96" />
-
 
 ## Result
 Thus the attenuation-limited fiber lenght based on the power budget equation is successfully simulated and verified.
